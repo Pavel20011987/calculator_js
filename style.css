@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(241, 237, 235);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-image: url(img/superman.jpg);
+    line-height: 25px;
+}
+
+p {
+
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.left_size {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.right_size{
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.video {
+    text-align: center;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(204, 199, 199);
+    font-weight: bold;
+
+}
+
+table {
+    font-size: 90%;
+    line-height: 20px;
+    display: inline-block;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+td {
+    border: white 1px solid;
+    padding: 10px;
+}
+
+th{
+    padding: 10px;
+
+}
+
+.results {
+    width: 100%;
+    text-align: center;
+}
